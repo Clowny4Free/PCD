@@ -1,24 +1,14 @@
 package Es1_18Febbraio2024;
 
-import javax.management.StringValueExp;
-
 public class Posto {
     private char fila;
     private int sedia;
     private boolean occupato;
 
-    public Posto(char f, int s, boolean o){
+    public Posto (char f, int s, boolean o){
         this.fila = f;
         this.sedia = s;
-        this.occupato = false;
-    }
-
-    public int getPoltrona(){
-        return sedia;
-    }
-
-    public void setSedia(int sedia){
-        this.sedia = sedia;
+        this.occupato = o = false;
     }
 
     public char getFila(){
@@ -29,8 +19,16 @@ public class Posto {
         this.fila = fila;
     }
 
+    public int getSedia(){
+        return sedia;
+    }
+
     public boolean isOccupato(){
         return occupato;
+    }
+
+    public void setSedia(int sedia){
+        this.sedia = sedia;
     }
 
     public void setOccupato(boolean occupato){
@@ -38,6 +36,6 @@ public class Posto {
     }
 
     public String toString(){
-        return(fila + String.valueOf(sedia));
+        return (fila+String.valueOf(sedia));
     }
 }

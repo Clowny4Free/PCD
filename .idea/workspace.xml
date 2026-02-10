@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Funzionamento chechk">
-      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestoreImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestorePrenotazioni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/NoPostiLiberi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Posto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Gestore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/TroppiPosti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestorePrenotazioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestorePrenotazioni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Posto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Posto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Clowny4Free/PCD.git&quot;,
-    &quot;accountId&quot;: &quot;04529c4c-ad06-4a51-bdb4-1a27be073b74&quot;
+    &quot;accountId&quot;: &quot;4f43d82a-eee1-425d-8f39-4763aac472c8&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.ThreadMain.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Documenti/PCD/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Documenti/PCD/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadMain" />
@@ -101,6 +103,9 @@
       <updated>1770628179235</updated>
       <workItem from="1770628181032" duration="367000" />
       <workItem from="1770628851420" duration="6761000" />
+      <workItem from="1770736403723" duration="95000" />
+      <workItem from="1770736694994" duration="130000" />
+      <workItem from="1770736957956" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary="Funzionamento chechk">
       <option name="closed" value="true" />

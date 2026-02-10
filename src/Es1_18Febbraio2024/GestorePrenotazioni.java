@@ -1,13 +1,14 @@
 package Es1_18Febbraio2024;
 
 public interface GestorePrenotazioni {
-    public boolean postiLiberi();
+    boolean postiLiberi();
 
-    public int numPostiLiberi();
+    int numPostiLiberi();
 
-    public Posto[] QualiPostiLiberi() throws NoPostiLiberi;
+    Posto[] qualiPostiLiberi() throws NoPostiLiberi;
 
-    public Posto prenota(Posto p);
+    Posto prenota(Posto p);
 
-    public Posto[] prenotaMolti(int n) throws NoPostiLiberi,TroppiPosti;
+    Posto[] prenotaMolti(int n) throws NoPostiLiberi, TroppiPosti;
+
 }
