@@ -1,6 +1,9 @@
 package Es1_18Febbraio2024;
 
-public class Posto {
+import java.io.Serializable;
+
+public class Posto implements Serializable {
+    private static final long serialVersionUID = 1L;
     private char fila;
     private int sedia;
     private boolean occupato;

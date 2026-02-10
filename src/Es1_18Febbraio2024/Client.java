@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 public class Client {
     public static void main(String[] args) throws Exception{
         Registry registro = LocateRegistry.getRegistry();
-        Gestore gestore = (Gestore) registro.lookup("GestoreTeatro");
+        GestorePrenotazioni gestore = (GestorePrenotazioni) registro.lookup("GestoreTeatro");
         System.out.println("Posti liberi: " + gestore.numPostiLiberi());
         Posto p = new Posto ('A', 1, false);
         Posto prenotato = gestore.prenota(p);

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Correzione es 1">
-      <change afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Client.java" afterDir="false" />
+    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Quasi Quasi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Gestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Gestore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestorePrenotazioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/GestorePrenotazioni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Posto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es1_18Febbraio2024/Posto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <workItem from="1770736403723" duration="95000" />
       <workItem from="1770736694994" duration="130000" />
       <workItem from="1770736957956" duration="4074000" />
-      <workItem from="1770743885460" duration="6765000" />
+      <workItem from="1770743885460" duration="8113000" />
     </task>
     <task id="LOCAL-00001" summary="Funzionamento chechk">
       <option name="closed" value="true" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770741135223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Quasi Quasi">
+      <option name="closed" value="true" />
+      <created>1770762917536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770762917536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Funzionamento chechk" />
     <MESSAGE value="Correzione es 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correzione es 1" />
+    <MESSAGE value="Quasi Quasi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quasi Quasi" />
   </component>
 </project>
