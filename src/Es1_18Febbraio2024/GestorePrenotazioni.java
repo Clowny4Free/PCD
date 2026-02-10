@@ -1,14 +1,16 @@
 package Es1_18Febbraio2024;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
 
-public interface GestorePrenotazioni {
-    boolean postiLiberi();
+public interface GestorePrenotazioni extends Remote {
+    boolean postiLiberi() throws RemoteException;
 
-    int numPostiLiberi();
+    int numPostiLiberi() throws RemoteException;
 
-    Posto[] qualiPostiLiberi() throws NoPostiLiberi;
+    Posto[] qualiPostiLiberi() throws NoPostiLiberi, RemoteException;
 
-    Posto prenota(Posto p);
+    Posto prenota(Posto p) throws RemoteException;
 
-    Posto[] prenotaMolti(int n) throws NoPostiLiberi, TroppiPosti;
+    Posto[] prenotaMolti(int n) throws NoPostiLiberi, TroppiPosti, RemoteException;
 
 }
