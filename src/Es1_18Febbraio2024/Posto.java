@@ -11,7 +11,7 @@ public class Posto implements Serializable {
     public Posto (char f, int s, boolean o){
         this.fila = f;
         this.sedia = s;
-        this.occupato = o = false;
+        this.occupato = o;
     }
 
     public char getFila(){

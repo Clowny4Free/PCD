@@ -31,7 +31,7 @@ public class Gestore extends UnicastRemoteObject implements GestorePrenotazioni 
     }
 
     public synchronized boolean postiLiberi()  throws RemoteException {
-        return nLiberi == 0;
+        return nLiberi > 0;
     }
 
     public synchronized int numPostiLiberi() throws RemoteException{
@@ -57,6 +57,7 @@ public class Gestore extends UnicastRemoteObject implements GestorePrenotazioni 
         int sedia = p.getSedia() - 1;
         if(!teatro[fila][sedia].isOccupato()){
             teatro[fila][sedia].setOccupato(true);
+            nLiberi--;
             return teatro[fila][sedia];
         }
         else throw new NoPostiLiberi();
@@ -89,6 +90,7 @@ public class Gestore extends UnicastRemoteObject implements GestorePrenotazioni 
     }
 
     public synchronized Posto[] prenotaMolti(int n) throws NoPostiLiberi, TroppiPosti, RemoteException{
+        if(n < 2 || n > 5) throw new TroppiPosti();
         Posto[] tmp = new Posto[n];
         int fila = trovafila(n);
         if(fila == -1) throw new TroppiPosti();

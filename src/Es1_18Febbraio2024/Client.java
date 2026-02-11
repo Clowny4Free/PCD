@@ -4,11 +4,11 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class Client {
-    public static void main(String[] args) throws Exception{
-        Registry registro = LocateRegistry.getRegistry();
+    public static void main(String[] args) throws Exception {
+        Registry registro = LocateRegistry.getRegistry("localhost", 1099);
         GestorePrenotazioni gestore = (GestorePrenotazioni) registro.lookup("GestoreTeatro");
         System.out.println("Posti liberi: " + gestore.numPostiLiberi());
-        Posto p = new Posto ('A', 1, false);
+        Posto p = new Posto('A', 1, false);
         Posto prenotato = gestore.prenota(p);
         System.out.println("Prenotato: " + prenotato.getFila() + prenotato.getSedia());
         System.out.println("Posti liberi dopo prenotazione: " + gestore.numPostiLiberi());
