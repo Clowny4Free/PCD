@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Funzionamento chechk">
-      <change afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/ClientUtenti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Utente.java" afterDir="false" />
+    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Quasi Quasi">
+      <change afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Amministratore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/Acquisto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Acquisto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/Bene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Bene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/ClientUtenti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/Magazziniere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Magazziniere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/Magazzino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Magazzino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2_825Giugno2025/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2_825Giugno2025/Utente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,12 +38,12 @@
     &quot;assignee&quot;: &quot;Clowny4Free&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Clowny4Free/PCD.git",
-    "accountId": "04529c4c-ad06-4a51-bdb4-1a27be073b74"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Clowny4Free/PCD.git&quot;,
+    &quot;accountId&quot;: &quot;4f43d82a-eee1-425d-8f39-4763aac472c8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -50,28 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Gestore.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Documenti/PCD/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Gestore.executor": "Run",
+    "Application.Magazzino.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ThreadMain.executor": "Run",
+    "Application.Utente.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Documenti/PCD/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Client">
+}]]></component>
+  <component name="RunManager" selected="Application.Utente">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Es1_18Febbraio2024.Client" />
       <module name="PCD" />
@@ -98,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Magazzino" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Es2_825Giugno2025.Magazzino" />
+      <module name="PCD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Es2_825Giugno2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadMain" />
       <module name="PCD" />
@@ -105,8 +125,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Utente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Es2_825Giugno2025.Utente" />
+      <module name="PCD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Es2_825Giugno2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Utente" />
+        <item itemvalue="Application.Magazzino" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Gestore" />
         <item itemvalue="Application.ThreadMain" />
@@ -133,8 +168,8 @@
       <workItem from="1770736403723" duration="95000" />
       <workItem from="1770736694994" duration="130000" />
       <workItem from="1770736957956" duration="4074000" />
-      <workItem from="1770743885460" duration="8113000" />
-      <workItem from="1770894354895" duration="4577000" />
+      <workItem from="1770743885460" duration="8125000" />
+      <workItem from="1770815431077" duration="7699000" />
     </task>
     <task id="LOCAL-00001" summary="Funzionamento chechk">
       <option name="closed" value="true" />
@@ -160,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770762917536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quasi Quasi">
+      <option name="closed" value="true" />
+      <created>1770766733731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770766733731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
