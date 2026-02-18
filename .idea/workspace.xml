@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="Funzionamento chechk">
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Contenitore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/ImplContenitore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Inesistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Pieno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es5_23Novembre2022/Utente.java" afterDir="false" />
+    <list default="true" id="308e7535-8741-43e8-80d4-9f3f859c054a" name="Changes" comment="DAIIII">
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/Banca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/ContoInesistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/DisponibilitaInsufficiente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/IBAN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/SistemaBancaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/SommaNegativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es6_Giugno2002/Utente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/Contenitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/ContenitorePieno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/ContenitoreVuoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/ImplContenitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es7_8Febbraio2023/Utente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/Custode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/Parcheggio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/PostoDisponibile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/PostoNonDisponibile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/ServizioCustode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es8_Claude1/ServizioPosteggio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Exception" />
         <option value="Class" />
@@ -41,7 +57,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Clowny4Free/PCD.git&quot;,
-    &quot;accountId&quot;: &quot;04529c4c-ad06-4a51-bdb4-1a27be073b74&quot;
+    &quot;accountId&quot;: &quot;4f43d82a-eee1-425d-8f39-4763aac472c8&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -55,36 +71,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.Es5_23Novembre2022.Client.executor": "Run",
-    "Application.Gestore.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Server.executor": "Run",
-    "Application.ThreadMain.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Documenti/PCD/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Es3_25Gennaio2023.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Es4_9Luglio2025.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Es4_9Luglio2025.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Es7_8Febbraio2023.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gestore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Magazzino.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Utente.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Documenti/PCD/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Es5_23Novembre2022.Client">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Es6_Giugno2002" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Es1_18Febbraio2024.Client" />
+      <option name="MAIN_CLASS_NAME" value="Es8_Claude1.Client" />
       <module name="PCD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Es1_18Febbraio2024.*" />
+          <option name="PATTERN" value="Es8_Claude1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Es5_23Novembre2022.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Es5_23Novembre2022.Client" />
+    <configuration name="Es4_9Luglio2025.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Es4_9Luglio2025.Client" />
       <module name="PCD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Es5_23Novembre2022.*" />
+          <option name="PATTERN" value="Es4_9Luglio2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gestore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Es1_18Febbraio2024.Gestore" />
+    <configuration name="Es7_8Febbraio2023.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Es7_8Febbraio2023.Main" />
       <module name="PCD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Es1_18Febbraio2024.*" />
+          <option name="PATTERN" value="Es7_8Febbraio2023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Es5_23Novembre2022.Main" />
+      <option name="MAIN_CLASS_NAME" value="Es6_Giugno2002.Main" />
       <module name="PCD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Es5_23Novembre2022.*" />
+          <option name="PATTERN" value="Es6_Giugno2002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +159,11 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Es5_23Novembre2022.Server" />
+      <option name="MAIN_CLASS_NAME" value="Es8_Claude1.Server" />
       <module name="PCD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Es5_23Novembre2022.*" />
+          <option name="PATTERN" value="Es8_Claude1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Es5_23Novembre2022.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Gestore" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Es7_8Febbraio2023.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Es4_9Luglio2025.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -174,8 +201,14 @@
       <workItem from="1770736403723" duration="95000" />
       <workItem from="1770736694994" duration="130000" />
       <workItem from="1770736957956" duration="4074000" />
-      <workItem from="1770743885460" duration="8113000" />
-      <workItem from="1770894354895" duration="4577000" />
+      <workItem from="1770743885460" duration="8125000" />
+      <workItem from="1770815431077" duration="7699000" />
+      <workItem from="1770981046891" duration="23022000" />
+      <workItem from="1771157373821" duration="7280000" />
+      <workItem from="1771171121807" duration="7016000" />
+      <workItem from="1771276579121" duration="618000" />
+      <workItem from="1771320260974" duration="14039000" />
+      <workItem from="1771339983314" duration="9551000" />
     </task>
     <task id="LOCAL-00001" summary="Funzionamento chechk">
       <option name="closed" value="true" />
@@ -201,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770762917536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quasi Quasi">
+      <option name="closed" value="true" />
+      <created>1770766733731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770766733731</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DIO">
+      <option name="closed" value="true" />
+      <created>1770920559180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770920559180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +260,7 @@
     <MESSAGE value="Funzionamento chechk" />
     <MESSAGE value="Correzione es 1" />
     <MESSAGE value="Quasi Quasi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quasi Quasi" />
+    <MESSAGE value="DIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="DIO" />
   </component>
 </project>
